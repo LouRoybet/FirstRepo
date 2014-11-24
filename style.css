@@ -1,8 +1,10 @@
 h1 {
     color:black;
     font-size:70;
-    font-family: 'Lobster', cursive;}
-
+    font-family: 'Lobster', cursive;
+    align-content: center;
+}
+    
 p{
     font-family: 'Nunito', sans-serif;
     font-size:24;
@@ -33,4 +35,11 @@ header li {
     list-style: none;             /* Enlever le style de liste */
     display: inline-block;        /* liens aligné */
     width: 32%;                   /* centrer l'en-tête */
+}
+
+li {
+    font-family: 'Nunito', sans-serif ;
+    font-size: 18px;
+    list-style: none;
+        
 }
