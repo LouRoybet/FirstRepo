@@ -5,6 +5,32 @@ h1 {
 
 p{
     font-family: 'Nunito', sans-serif;
-    font-size:24
+    font-size:24;
     font-family: 'Nunito', sans-serif;     
+}
+
+header {
+    background-color: #f8b0b0;   /*  couleur de fond */
+    height: 50px;                /* taille du bloc */
+    padding-top: 25px;           /* centrer */
+    padding-bottom: 50px;        /* centrer par rapport au texte */
+}
+
+ul body {
+    margin: #0;                   /* Pas de marge */
+    padding: #0;                
+}
+
+
+header a {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;        /* Pas de décoration (souligné) */
+    
+}
+
+header li {
+    list-style: none;             /* Enlever le style de liste */
+    display: inline-block;        /* liens aligné */
+    width: 32%;                   /* centrer l'en-tête */
 }
