@@ -1,8 +1,9 @@
 h1 {
-    color:black;
+    color:color ="black";
     font-size:70;
     font-family: 'Lobster', cursive;
     align-content: center;
+    
 }
     
 p{
@@ -42,4 +43,20 @@ li {
     font-size: 18px;
     list-style: none;
         
+}
+
+
+header .active { 
+    background-color: #f2c2b4;        /* Bloc interactif et changement de couleur sur acceuil, parcours, contact*/
+    border-radius: 15px;
+}
+
+header .active { 
+    background-color: #f2c2b4;
+    border-radius: 15px;
+}
+
+header .active { 
+    background-color: #f2c2b4;
+    border-radius: 55px;
 }
