@@ -62,18 +62,34 @@ header .active {
 }
 
 main {
-max-width:60px;
+max-width:650px;
 margin-left:80px;
 margin-right: auto;
 
 }
 
 .image {
-max-width:1000px;
+    display: block;
+    width: 30%;
     transition: all 1s ease;
     
 }
 
 .image:hover {
-width: 70% }
+
+width: 50%; }
+
+.bob { 
+margin-right: 30%;
+background-color: #990a62;
+}
+
+.rotation {
+display: block;}
+
+.rotation:hover {
+    transform:scale(180deg);
+    width: 5%
+}
+
 
